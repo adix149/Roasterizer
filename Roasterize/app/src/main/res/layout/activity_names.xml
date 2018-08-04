@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.aditya.aditya.roasterize.NamesActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter the names and duties of the doctors"
+        android:id="@+id/textView2"
+        android:textColor="@color/myBlue"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:id="@+id/DocsLayout"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentStart="true"
+        android:paddingTop="15dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/DocAddRow1"
+            android:nestedScrollingEnabled="false"
+            android:layout_below="@+id/textView2"
+            android:layout_alignParentStart="true">
+
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:hint="Name"
+                android:ems="10"
+                android:id="@+id/DocName1"
+                android:maxLength="15"
+                android:layout_alignParentStart="true"
+                android:textAlignment="center"
+                android:text="Thejaswini" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:hint="Duties"
+                android:ems="10"
+                android:maxLength="2"
+                android:width="100dp"
+                android:id="@+id/DocNumDuties1"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:textAlignment="center"
+                android:layout_marginLeft="20dp"
+                android:text="8" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/DocAddRow2"
+            android:nestedScrollingEnabled="false"
+            android:layout_below="@+id/DocAddRow1"
+            android:layout_alignParentStart="true">
+
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:hint="Name"
+                android:ems="10"
+                android:id="@+id/DocName2"
+                android:maxLength="15"
+                android:layout_alignParentStart="true"
+                android:textAlignment="center"
+                android:text="Madhu" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:hint="Duties"
+                android:ems="10"
+                android:maxLength="2"
+                android:width="100dp"
+                android:id="@+id/DocNumDuties2"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:textAlignment="center"
+                android:layout_marginLeft="20dp"
+                android:text="7" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/DocAddRow3"
+            android:nestedScrollingEnabled="false"
+            android:layout_below="@+id/DocAddRow2"
+            android:layout_alignParentStart="true">
+
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:hint="Name"
+                android:ems="10"
+                android:id="@+id/DocName3"
+                android:maxLength="15"
+                android:layout_alignParentStart="true"
+                android:textAlignment="center"
+                android:text="Chaitanya" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:hint="Duties"
+                android:ems="10"
+                android:maxLength="2"
+                android:width="100dp"
+                android:id="@+id/DocNumDuties3"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:textAlignment="center"
+                android:layout_marginLeft="20dp"
+                android:text="8" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/DocAddRow4"
+            android:nestedScrollingEnabled="false"
+            android:layout_below="@+id/DocAddRow3"
+            android:layout_alignParentStart="true">
+
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:hint="Name"
+                android:ems="10"
+                android:id="@+id/DocName4"
+                android:maxLength="15"
+                android:layout_alignParentStart="true"
+                android:textAlignment="center"
+                android:text="Saritha"
+                android:singleLine="false" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:hint="Duties"
+                android:ems="10"
+                android:maxLength="2"
+                android:width="100dp"
+                android:id="@+id/DocNumDuties4"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:textAlignment="center"
+                android:layout_marginLeft="20dp"
+                android:text="7" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/DocAddRow5"
+            android:nestedScrollingEnabled="false"
+            android:layout_below="@+id/DocAddRow4"
+            android:layout_alignParentStart="true">
+
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:hint="Name"
+                android:ems="10"
+                android:id="@+id/DocName5"
+                android:maxLength="15"
+                android:layout_alignParentStart="true"
+                android:textAlignment="center"
+                android:text="Ramu" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:hint="Duties"
+                android:ems="10"
+                android:maxLength="2"
+                android:width="100dp"
+                android:id="@+id/DocNumDuties5"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:textAlignment="center"
+                android:layout_marginLeft="20dp"
+                android:text="8" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/DocAddRow6"
+            android:nestedScrollingEnabled="false"
+            android:layout_below="@+id/DocAddRow5"
+            android:layout_alignParentStart="true">
+
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:hint="Name"
+                android:ems="10"
+                android:id="@+id/DocName6"
+                android:maxLength="15"
+                android:layout_alignParentStart="true"
+                android:textAlignment="center"
+                android:text="Jyothi" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:hint="Duties"
+                android:ems="10"
+                android:maxLength="2"
+                android:width="100dp"
+                android:id="@+id/DocNumDuties6"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:textAlignment="center"
+                android:layout_marginLeft="20dp"
+                android:text="8" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/DocAddRow7"
+            android:nestedScrollingEnabled="false"
+            android:layout_below="@+id/DocAddRow6"
+            android:layout_alignParentStart="true">
+
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:hint="Name"
+                android:ems="10"
+                android:id="@+id/DocName7"
+                android:maxLength="15"
+                android:layout_alignParentStart="true"
+                android:textAlignment="center"
+                android:text="Zainab"
+                android:singleLine="false" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:hint="Duties"
+                android:ems="10"
+                android:maxLength="2"
+                android:width="100dp"
+                android:id="@+id/DocNumDuties7"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:textAlignment="center"
+                android:layout_marginLeft="20dp"
+                android:text="7" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/DocAddRow8"
+            android:nestedScrollingEnabled="false"
+            android:layout_below="@+id/DocAddRow7"
+            android:layout_alignParentStart="true">
+
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:hint="Name"
+                android:ems="10"
+                android:id="@+id/DocName8"
+                android:maxLength="15"
+                android:layout_alignParentStart="true"
+                android:textAlignment="center"
+                android:text="Srinivas" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:hint="Duties"
+                android:ems="10"
+                android:maxLength="2"
+                android:width="100dp"
+                android:id="@+id/DocNumDuties8"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:textAlignment="center"
+                android:layout_marginLeft="20dp"
+                android:text="7" />
+        </TableRow>
+    </LinearLayout>
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Roasterize"
+        android:id="@+id/submitBtn"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:contextClickable="false"
+        android:onClick="onRoasterizeSubmit" />
+
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Roasterize</string>
+    <string name="selectText">Select the Month and Year</string>
+    <string name="NextButtonText">Next</string>
+</resources>
